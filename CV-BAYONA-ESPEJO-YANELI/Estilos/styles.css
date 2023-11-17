@@ -1,0 +1,64 @@
+h1 {
+    color: rgb(37, 37, 143);
+    font-family: 'Poppins', sans-serif;
+    text-align:center
+}
+h2 {
+    color:rgb(92, 92, 184);
+    font-family: 'Poppins', sans-serif;
+}
+h3 {
+    color:rgb(92, 92, 184);
+    font-family: 'Poppins', sans-serif;
+}
+h4 {
+    color:rgb(92, 92, 184);
+    font-family: 'Poppins', sans-serif;
+}
+h5 {
+    color:rgb(92, 92, 184);
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color:rgb(92, 92, 184);
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    flex-direction: row;
+}
+
+.container {    
+    width: 100%;
+}
+
+.display-inline-flex{
+    display:inline-flex
+}
+
+.row {
+
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 2px;
+}
+
+.image-profile {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.item-left{
+    width: 30%;
+}
+
+.item-right{
+    width: 70%;
+}
+
+.skills{
+    color:rgb(92, 92, 184);
+    font-family: 'Poppins', sans-serif;
+}
