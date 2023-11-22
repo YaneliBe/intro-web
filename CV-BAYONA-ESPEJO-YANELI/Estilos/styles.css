@@ -1,18 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 2px;
+}
+
+
 h1 {
-    color: rgb(37, 37, 143);
+    color: rgb(40, 40, 95);
     font-family: 'Poppins', sans-serif;
     text-align:center
 }
 h2 {
-    color:rgb(92, 92, 184);
+    color:rgb(77, 77, 151);
     font-family: 'Poppins', sans-serif;
 }
 h3 {
-    color:rgb(92, 92, 184);
+    color:rgb(48, 48, 61);
     font-family: 'Poppins', sans-serif;
 }
 h4 {
-    color:rgb(92, 92, 184);
+    color:rgb(55, 55, 88);
     font-family: 'Poppins', sans-serif;
 }
 h5 {
@@ -24,39 +31,43 @@ a {
     color:rgb(92, 92, 184);
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+}
+.profile-description{
+    color:rgb(55, 55, 99);
+    font-family: 'Poppins', sans-serif;
 }
 
+.itemright{
+    grid-area:sidebar;
+}
+
+.itemleft{
+    grid-area:main;
+}
+
+.h3{
+    grid-area:title
+}
 .container {    
-    width: 100%;
+    background-color: rgb(247, 248, 253);
+    display: grid;
+    grid-template-columns: 1fr 150px 600px 1fr;
+    grid-template-areas:
+    ". title title ."
+    " . main sidebar . "
 }
 
-.display-inline-flex{
-    display:inline-flex
-}
 
-.row {
 
-  }
-
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 2px;
-}
 
 .image-profile {
     max-width: 100%;
     max-height: 100%;
 }
 
-.item-left{
-    width: 30%;
-}
 
-.item-right{
-    width: 70%;
-}
 
 .skills{
     color:rgb(92, 92, 184);
